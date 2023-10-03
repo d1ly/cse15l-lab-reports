@@ -10,7 +10,7 @@ Hello world!
 
 ## Hello world!
 
-[This is a link to the website page!](https://d1ly.github.io/cse15l-lab-reports/index.html)
+[This is a link to the website page!](https://d1ly.github.io/cse15l-lab-reports)
 
 - wow bullet points
 - so cool
