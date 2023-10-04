@@ -3,7 +3,7 @@
 # cd command
 The cd command stands for "current directory" and it is used to move between directories.
 ## cd no arguments
-![Image](cdnoarguments.png)
+![Image](cd no arguments.png)
 Using cd with no arguments resets the current directory to the home directory, also known as /home. I was in the ~/lecture1/messages directory, using cd reset me to home.
 This is **not** an error and is an intentional/useful way for easy access to the home directory.
 
