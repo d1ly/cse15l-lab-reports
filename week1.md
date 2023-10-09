@@ -18,10 +18,10 @@ This is **not** an error and allows movement between directories.
 ![Image](cdtofile.PNG)
 
 Using cd with a file as an argument is an **error**. This is because a file is not a directory and so the command "change directory" will not work. 
-A directory basically has multiple files in it and a single file can not be a directory. 
+A directory is a filesystem with multiple files in it, and so a single file can not be a directory. 
 
 # ls command
-This lists the files in the directory.
+This lists the names of directories and files, depending on the specified argument.
 
 ## ls no arguments
 ![Image](lsnoarguments.PNG)
@@ -42,13 +42,13 @@ Using ls on a file just displays the mentioned filename. If the file doesn't exi
 Also known as concatenate, this command reads data from a file and outputs it. The text of the file is outputted.
 
 ## cat with no arguments
-
+![Image](cat1.PNG)
 Using cat with no arguments waits for the user to input something, and then duplicates it as the output. It is a way to check human input and if it works by spitting the input back. The directory doesn't necessarily matter but this one is in directory lecture1/, and there aren't any errors.
 
 ## cat to a directory
-
+![Image](cat2.PNG)
 Cat on an existing directory will confirm that the directory exists. If it doesn't exist it will say that there is no file or directory, which is an error. 
 
 ## cat to a file
-
+![Image](cat3.PNG)
 Cat with a file argument outputs the data and text within the file. On a .txt file it outputs the text within the file, or on a .java file it outputs all the code in the file. This is not an error and is the main way to use cat
