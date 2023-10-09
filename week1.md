@@ -42,12 +42,15 @@ Also known as concatenate, this command reads data from a file and outputs it. T
 
 ## cat with no arguments
 ![Image](cat1.PNG)
+
 Using cat with no arguments waits for the user to input something, and then duplicates it as the output. It is a way to check human input and if it works by outputting the input back. The directory doesn't necessarily matter but this one is in directory `lecture1/`, and there aren't any errors.
 
 ## cat to a directory
 ![Image](cat2.PNG)
+
 Cat on an existing directory will confirm that the directory exists or not in the current working directory. If it doesn't exist it will say that there is no file or directory, which is an error. Otherwise its just another confirmation command checking if the directory is there.
 
 ## cat to a file
 ![Image](cat3.PNG)
+
 Cat with a file argument outputs the data and text within the file. On a .txt file it outputs the text within the file, or on a .java file it outputs all the code in the file. This is not an error and is the main way to use cat, for displaying the text within the file.
