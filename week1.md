@@ -31,12 +31,12 @@ Using ls with no arguments gives the list of files that is in the current direct
 ## ls to directory
 ![Image](lsdirectory.PNG)
 
-Using ls with a directory gives the list of files of the specified directory. If the specified directory doesn't exist or isn't in the current working directory it will cause an error. Here the current directory is home so it can list the contents of the directory `~/lecture1` and is not an error.
+Using ls with a directory gives the list of files of the specified directory. If the specified directory doesn't exist or isn't in the current working directory it will cause an error. Here the current directory is home so it can list the contents of the directory `/lecture1` and is not an error.
 
 ## ls to a file
 ![Image](lsfile.PNG)
 
-Using ls on a file just displays the mentioned filename. If the file doesn't exist in the current directory it will cause an error. The current directory is `~/lecture1/messages/` which can then access en-us.txt within it, so using ls on the file displays the listed filename.
+Using ls on a file just displays the mentioned filename. If the file doesn't exist in the current directory it will cause an error. The current directory is `~/lecture1/messages/` which can then access `en-us.txt` within it, so using ls on the file displays the listed filename.
 
 # cat command
 Also known as concatenate, this command reads data from a file and outputs it. The text of the file is outputted.
@@ -51,4 +51,4 @@ Cat on an existing directory will confirm that the directory exists or not in th
 
 ## cat to a file
 ![Image](cat3.PNG)
-Cat with a file argument outputs the data and text within the file. On a .txt file it outputs the text within the file, or on a .java file it outputs all the code in the file. This is not an error and is the main way to use cat
+Cat with a file argument outputs the data and text within the file. On a .txt file it outputs the text within the file, or on a .java file it outputs all the code in the file. This is not an error and is the main way to use cat, for displaying the text within the file.
