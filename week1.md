@@ -24,12 +24,31 @@ A directory basically has multiple files in it and a single file can not be a di
 This lists the files in the directory.
 
 ## ls no arguments
-Using ls with no arguments gives the list of files that is in the current directory you are in.
+![Image](lsnoarguments.PNG)
+
+Using ls with no arguments gives the list of files that is in the current directory you are in. The current working directory is ~/lecture1, and so it outputs the files and directories within lecture1.
 
 ## ls to directory
-Using ls with a directory gives the list of files of the specified directory. If the specified directory doesn't exist it will cause an error. 
+![Image](lsdirectory.PNG)
+
+Using ls with a directory gives the list of files of the specified directory. If the specified directory doesn't exist or isn't in the current working directory it will cause an error. Here the current directory is home so it can list the contents of the directory lecture1 and is not an error.
 
 ## ls to a file
-Using ls on a file just displays the mentioned filename. If the file doesn't exist in the current directory it will cause an error.
+![Image](lsfile.PNG)
 
-#
+Using ls on a file just displays the mentioned filename. If the file doesn't exist in the current directory it will cause an error. The current directory is ~/lecture1/messages/ which can then access en-us.txt within it, so using ls on the file displays the listed filename.
+
+# cat command
+Also known as concatenate, this command reads data from a file and outputs it. The text of the file is outputted.
+
+## cat with no arguments
+
+Using cat with no arguments waits for the user to input something, and then duplicates it as the output. It is a way to check human input and if it works by spitting the input back. The directory doesn't necessarily matter but this one is in directory lecture1/, and there aren't any errors.
+
+## cat to a directory
+
+Cat on an existing directory will confirm that the directory exists. If it doesn't exist it will say that there is no file or directory, which is an error. 
+
+## cat to a file
+
+Cat with a file argument outputs the data and text within the file. On a .txt file it outputs the text within the file, or on a .java file it outputs all the code in the file. This is not an error and is the main way to use cat
