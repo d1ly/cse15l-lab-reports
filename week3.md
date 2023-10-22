@@ -51,3 +51,16 @@ class StringServer {
 }
 ```
 
+#Using add-message/
+
+![Image](string1.PNG)
+
+The method first called within the class Handler is `handleRequest` which takes in the URL as an argument. Then it checks the path of the URL and if it contains "\add-message" which is true. It then gets the query of the URL and splits it into two parameters before and after the `=`, checking if `s` is the first parameter. Then the second parameter, in this case is "Hello" will then be added into the array list of strings. A StringBuilder is declared to help return an output to the website, and a for loop is done to build the output to finally return.
+
+
+
+![Image](string2.PNG)
+
+
+#Part 2: SSH keys and password
+
