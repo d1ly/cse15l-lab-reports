@@ -81,8 +81,6 @@ Now that "Hello" was previously stored, it adds yet another whole string "How ar
 
 ## Logging in with no password
 
-![Image](ssh2.PNG)
-
 ![Image](ssh3.PNG)
 
 
