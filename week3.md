@@ -51,17 +51,17 @@ class StringServer {
 }
 ```
 
-#Using add-message/
+# Using add-message/
 
 ![Image](string1.PNG)
 
-The method first called within the class Handler is `handleRequest` which takes in the URL as an argument. Then it checks the path of the URL and if it contains "\add-message" which is true. It then gets the query of the URL and splits it into two parameters before and after the `=`, checking if `s` is the first parameter. Then the second parameter, in this case is "Hello" will then be added into the array list of strings. A StringBuilder is declared to help return an output to the website, and a for loop is done to build the output with append to finally return.The relevant arguments are pretty much the parameters of the URL along with the \add-message part indicating to add a message, along with the "Hello" string.
+The method first called within the class Handler is `handleRequest` which takes in the URL as an argument. It checks the path of the URL and if it contains "\add-message". It then gets the query of the URL and splits it into two parameters before and after the `=`, checking if `s` is the first parameter to indicate that it's a string. Then the second parameter, in this case is "Hello" will then be added into the array list of strings. A StringBuilder is declared to help return an output to the website, and a for loop is done to build the output with append to finally return. The relevant arguments are pretty much the parameters of the URL along with the \add-message part indicating to add a message, along with the "Hello" string.
 
 The main values that change is that the `listOfStrings` gets added the new string, where the string is now stored in the list. So now it currently only has "Hello" stored as the first element of the list. Also another thing that changes is the StringBuilder `output` where it appends a number and the added string so that when it outputs to the website.
 
 ![Image](string2.PNG)
 
-The method first called within the class Handler is `handleRequest` which takes in the URL as an argument. Then it checks the path of the URL and if it contains "\add-message" which is true. It then gets the query of the URL and splits it into two parameters before and after the `=`, checking if `s` is the first parameter. Then the second parameter, in this case is "How are you" will then be added into the array list of strings. A StringBuilder is declared to help return an output to the website, and a for loop is done to build the output with append to finally return. The relevant arguments are pretty much the parameters of the URL along with the \add-message part indicating to add a message, along with the "How are you" string.
+The method first called within the class Handler is `handleRequest` which takes in the URL as an argument. Then it checks the path of the URL and if it contains "\add-message" which is true. It then gets the query of the URL and splits it into two parameters before and after the `=`, checking if `s` is the first parameter. Tthe second parameter, in this case is "How are you" will then be added into the array list of strings. A StringBuilder is declared to help return an output to the website, and a for loop is done to build the output with append to finally return. The relevant arguments are pretty much the parameters of the URL along with the \add-message part indicating to add a message, along with the "How are you" string.
 
 Now that "Hello" was previously stored, it adds yet another whole string "How are you" as the second element of the list. The StringBuilder output appends the newly added string with a number to the host.
 
@@ -71,9 +71,13 @@ Now that "Hello" was previously stored, it adds yet another whole string "How ar
 
 ![Image](ssh1.PNG)
 
+`/c/Users/hello/.ssh/id_rsa` (note: hello is the name of my local computer)
+
 ## Path to public key
 
 ![Image](ssh4.PNG)
+
+`/home/linux/ieng6/cs15lfa23/cs15lfa23nr/.ssh/authorized_keys`
 
 ## Logging in with no password
 
