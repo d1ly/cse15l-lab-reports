@@ -283,7 +283,9 @@ The command outputs only the lines that match "universe". So if a line says "uni
 $ grep "universes" -w -r  technical/*
 technical/plos/journal.pbio.0020297.txt:        different universes and showed that the critical parameter to rank the difficulty of a
 ```
-An example with "universes" which was excluded from the output above. 
+An example with "universes" which was excluded from the output looking for "universe" above. 
+
+---
 
 ```
 $ grep "technical" -w -r  technical/plos/*
