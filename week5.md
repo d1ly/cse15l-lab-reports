@@ -309,4 +309,4 @@ technical/plos/pmed.0020242.txt:        costly reagents and substantial technica
 Here only lines with "technical" in it, so lines that only have "technically" or "technicals" and other variations will not be included.
 Overall this command is useful for getting exact word matches if needed, and exclude plural useges or other verbs/adverbs.
 
-Sources for all the commands: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix#count-the-lines-where-strings-are-matched-with-c-option
+Sources for all the commands: [https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
