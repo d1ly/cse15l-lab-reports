@@ -7,9 +7,7 @@ so i pressed `<up>` to easily access it.
 ![image](https://github.com/d1ly/cse15l-lab-reports/assets/146896640/b7676383-d70b-42d8-9c25-cd598a722157)
 
 ## Clone your fork of the repository from your Github account
-Keys pressed: `<up>, <up>, <up>, <up>, <up>, <up>, <up>, <enter>`
-
-alternatively, 'git clone, <ctrl+v>, <enter>`, assuming the github link is already copied
+Keys pressed: `git clone, <ctrl+v>, <enter>`, assuming the github link is already copied
 
 ![image](https://github.com/d1ly/cse15l-lab-reports/assets/146896640/de76a595-9cf7-45f6-998d-dcbf37fd1e61)
 
