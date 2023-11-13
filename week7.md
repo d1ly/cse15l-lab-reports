@@ -48,7 +48,7 @@ Below is what `vim` looks like after I changed `index1` to `index2` and before I
 
 ## Run the tests, demonstrating that they now succeed
 
-Keys pressed: <up>, <up>, <enter>
+Keys pressed: `<up>, <up>, <enter>`
 
 The `bash test.sh` command is up two commands in the bash history, so i pressed `<up>` two times to access it. This successfully reruns the tests.
 
@@ -59,7 +59,7 @@ The `bash test.sh` command is up two commands in the bash history, so i pressed 
 Keys pressed: `git add L, <tab>, <enter>,
 git com, <tab>, <enter>,
 i, Fixed merge function ,<esc>, :wq,
-git push`
+git push <enter>`
 
 ![image](https://github.com/d1ly/cse15l-lab-reports/assets/146896640/c293ead8-95cc-4a18-abb3-2f10b8a63f30)
 
