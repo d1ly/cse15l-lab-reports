@@ -21,7 +21,10 @@ It seems like you are extracting the number of tests run and the number of tests
 
 Student: 
 
-Thanks I figured it out
+Thanks I figured it out! Turns out that syntax '-' error comes from the `TOTAL` and `FAILURE` variables not being initalized since the output didn't have that "Tests run:" and "Failures:" output.
+
+![image](https://github.com/d1ly/cse15l-lab-reports/assets/146896640/c25851f3-89c4-47fb-86f7-2cfc216f68dc)
+
 
 
 ## Information about setup
