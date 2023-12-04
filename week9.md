@@ -1,6 +1,6 @@
 # CSE15L Week 9 Lab Report - Putting it All Together
 
-## Part 1 Debugging Scenario
+# Part 1 Debugging Scenario
 
 Student:
 
@@ -87,9 +87,7 @@ echo ""
 echo "Grade: $SCORE/$TOTAL"
 ```
 
-Command:
-
-bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
+Command: `$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
 
 To fix this bug, after running the tests, make a variable to `grep` from the output the string "OK" to confirm that all the tests passed for a good file. Then output the grade and exit it, because the grade is already determined. Here is the fix in code:
 
@@ -102,6 +100,8 @@ then
 fi
 ```
 
+# Part 2
 
+Honestly just learning Java and Bash was interesting to me. I'm a transfer and my previous instituion taught in C/C++. Anyway for Java it's interesting seeing that like everything we write needs to be in a class, and compiling generates all these class files. It also was weird having to have your file and class name be exactly the same or else it wouldn't compile! Quite annoying but I got used to it, and reading about the documentation on things like `Process` and `jdb` and `junit` was very informative on how Java works too. Learning about Bash was frustrating because its syntax is weird. If statements needed spaces around the brackets, variables needed to all be in caps, and many other syntax issues made writing Bash scripts difficult. But it was really informative to learn about how we can run commands easier and just by the use of one file. Learning about using all these commands will definitely be super useful in the future of my computer science career atleast.
 
 
